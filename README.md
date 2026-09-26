@@ -1,8 +1,8 @@
 # SwapServer
 
-VB6 SwapServer (`SwapServer.exe`) that remaps mapped network drives from old file servers to new ones using `SwapServer.ini` (old,new pairs), WMI/Scripting Runtime helpers, and reconnect logic. Open `SwapServer.vbp` in the VB6 IDE.
+VB6 SwapServer (`SwapServer.exe`) that remaps mapped network drives from old file servers to new ones using `SwapServer.ini` (old,new pairs), WMI and Scripting Runtime helpers, and reconnect logic. Open `SwapServer.vbp` in the VB6 IDE.
 
-**Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
+**Source last updated:** 2003-04-01 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
 ## Solution structure
 
@@ -18,11 +18,13 @@ Open the `.vbp` in Visual Basic 6.0 IDE:
 ## Requirements
 
 - Visual Basic 6.0 IDE
+- Microsoft Scripting Runtime (scrrun.dll)
+- Microsoft WMI Scripting V1.2 Library
 - `SwapServer.ini` beside the exe (sample included)
 
 ## Attribution and provenance
 
-Working copy from my Historical Dev folder `VB/SwapServer`.
+Working copy from my Historical Dev folder `VB/SwapServer`. Notes in `Documentation.xml`.
 
 ## License
 
